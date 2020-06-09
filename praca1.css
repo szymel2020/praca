@@ -1,0 +1,215 @@
+body {
+	font-family: 'Smokum', cursive;
+	font-size: 15px;
+}
+
+.container {
+	display: flex;
+	flex-flow: row wrap;
+	box-sizing: border-box;
+	border: 12px solid black;
+	margin: 3em auto;
+	width: 80%;
+	height: 70em;
+	box-shadow: 0 20px 20px 0 rgba(0, 1, 1, 1.9), 0 30px 30px 0 rgba(1, 5, 7, 1.2);
+}
+
+.section1 {
+	display: block;
+	display: flex;
+	box-sizing: border-box;
+	margin: 0;
+	width: 100%;
+	height: 20%;
+}
+
+.section2 {
+	display: flex;
+	align-content: flex-end;
+	align-items: flex-start;
+	box-sizing: border-box;
+	margin: 0;
+	width: 80%;
+	height: 60%;
+}
+
+.logo {
+	flex: 20;
+	background-color: hotpink;
+}
+
+.tytul {
+	display: block;
+	flex-flow: wrap;
+	color: #030000;
+	background:  url(https://cdn.pixabay.com/photo/2016/10/19/11/14/monument-valley-1752714_1280.jpg) center;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: uppercase;
+	font-size: 9em;
+	flex: 60;
+	background-color: gold;
+	font-family: 'Smokum', cursive;
+}
+
+.side {
+	display: flex;
+	flex: 20;
+	flex-flow: wrap;
+	height: 45em;
+	align-self: stretch;
+	background-color: forestgreen;
+}
+
+.foto1 {
+	display: block;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.nav   {
+	
+	flex: 27;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	height: auto;
+	background-color: deepskyblue;
+}
+
+img {
+	flex: 20;
+	display: block;
+	max-width: 20%;
+}
+
+a {
+	padding: .5em;
+/*	margin: auto .5em  auto .5em;*/
+	display: block;
+	display: flex;
+	font-size: 2em;
+	text-decoration: none;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+a:hover {
+	background-color: #3befef;
+	color: white;
+}
+
+.section2 ul li {
+	position: absolute;
+	font-size: 2em;
+	text-align: center;
+	display: flex;
+	display: block;
+	align-items: center;
+	justify-content: center;
+	list-style: none;
+	text-transform: uppercase;
+		
+}
+
+h1 {
+	flex-flow: wrap;
+	overflow: visible;
+}
+
+article {
+	flex-flow: wrap;
+	overflow: visible;
+	border: .3em brown double;
+	margin: 1.82em;
+	font-family: 'Farsan', cursive;
+	font-size: 1.4em
+}
+
+.article {
+	flex-flow: wrap;
+	overflow: visible;
+	flex: 80;
+	height: 60%;
+	background-color: red;
+}
+
+.footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 3em;
+	text-align: center;
+	color: navy;
+	height: 20%;
+	width: 100%;
+	background-color: darksalmon;
+	font-family: 'Smokum', cursive;
+
+}
+
+@media only screen and (max-width: 70em) {
+	div.nav {
+		display: none;
+	}
+	
+	.section1 {
+		position: relative;
+	}
+	
+	.side {
+		position: absolute;
+		top: 205.2px;
+		left: 80%;
+		height:auto;
+/*		width: 20%;*/
+	}
+}
+
+@media only screen and (max-width: 50em) {
+	.side {
+		display: none;
+	}
+	
+	.section2 {
+		width: auto;
+	}
+	
+	.article {
+		height: 100%;
+	}
+	
+	.tytul {
+		width: 80%;
+	}
+	
+	tytul {
+		transition-property: font-size;
+		transition-duration: 6s;
+		transition-timing-function: cubic-bezier(1.000, 0.125, 0.000, 0.395);
+	}
+	
+	tytul {
+		font-size: .4em;
+		color: rgba(23, 212, 31, 0.65);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
