@@ -41,7 +41,7 @@ body {
 .tytul {
 	display: block;
 	flex-flow: wrap;
-	color: #030000;
+	color: white;
 	background:  url(https://cdn.pixabay.com/photo/2016/10/19/11/14/monument-valley-1752714_1280.jpg) center;
 	background-size: cover;
 	display: flex;
