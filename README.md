@@ -1,0 +1,2 @@
+# praca
+repositories about west
